@@ -1,10 +1,10 @@
 {
   "name": "jate",
+  "heroku-prebuild": "npm install --dev",
   "scripts": {
     "dev": "webpack-dev-server",
     "build": "webpack --mode production",
-    "start": "webpack --watch",
-    "heroku-prebuild": "npm install --dev"
+    "start": "webpack --watch"
   },
   "author": "2U",
   "license": "UNLICENSED",
